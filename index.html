@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+
+<!-- Fork this repository for free:  https://github.com/reza-azimifar -->
+
+<html dir="ltr" lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <title>AB & Asociados</title>
+
+        <!-- Bootstrap CSS for Carousel -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Custom CSS for additional styling -->
+        <style>
+            .carousel {
+                max-height: 600px;
+                overflow: hidden;
+                max-width: 1250px; /* Ajusta este valor según el ancho deseado */
+                margin: 0 auto; /* Centra el carrusel */
+            }
+            .carousel-item img {
+                width: 100%;
+                height: 600px;
+                object-fit: cover;
+            }
+            .carousel-caption {
+                background-color: rgba(0,0,0,0.5);
+                border-radius: 10px;
+                padding: 15px;
+            }
+        </style>
+
+        <!-- Scripts -->
+        <script defer src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+        <script defer src="dist/js/app.js"></script>
+        <link href="dist/js/../css/styles.css" rel="stylesheet">
+    </head>
+
+    <body>
+
+
+      
+
+        <header class="header" id="header" style="font-weight: bold;">
+            <nav class="nav container">
+                <a class="nav__logo" href="#">
+                    <img src="src/images/logofirst.jpg" alt="AB & Asociados" class="nav__logo-img">
+                </a>
+                
+                <div class="nav__menu" id="nav-menu">
+                    <i class="nav__close" id="nav-close">×</i>
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a class="nav__link" href="#home">Inicio</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="#about">Nosotros</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="#support">Derecho migratorio</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="#services">Servicios</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="#contact">Contacto</a>
+                        </li>
+                       
+                    </ul>
+                </div>
+
+<div class="nav__toggle" id="nav-toggle">
+    <i class="bi bi-justify"></i>
+</div>
+
+                <!--<a class="button button__header" href="#">Lorem, ipsum.</a>-->
+            </nav>
+         
+        </header>
+
+        <section class="home section" id="homesss">
+            <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="src/images/carusel1.jpg" class="d-block w-100" alt="First slide">
+                      
+                    </div>
+                    <div class="carousel-item">
+                        <img src="src/images/fly.png" class="d-block w-100" alt="Second slide">
+                       
+                    </div>
+                    <div class="carousel-item">
+                        <img src="src/images/pass.png" class="d-block w-100" alt="Third slide">
+                       
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+        </section>
+        <section class="home section" id="home">
+            <!-- New Large Centered Title -->
+             <br>
+            <div class="text-center mb-5">
+                <h1 class="display-3 fw-bold text-dark">
+                    Especializados en la asistencia Jurídica en los siguientes tramites migratorios
+                    <br>
+                    <small class="text-muted fs-4">Servicios migratorios especiales. </small>
+                </h1>
+            </div>
+        
+
+            <div class="home__container container">
+                <article class="svg__img home__img" >
+                    <!-- Imagen agregada aquí -->
+                    <img src="src/images/uno.png" alt="Asistencia jurídica en migración" class="img-fluid">
+                </article>
+        
+                <article class="home__info">
+                    <h1 class="home__title">
+                        Asistencia personalizada en todo el proceso migratorio. <br>
+                    </h1>
+                    <p class="home__description">
+                        Tratamos casos especiales y brindamos asistencia y asesoramiento personalizado.
+                    </p>
+                    <a href="#" class="button" style="font-weight: bold;">Más información</a>
+                </article>
+            </div>
+
+        </section>
+
+        <section class="about section" id="about">
+            <div class="about__container container">
+                <article class="about__info">
+                    <h1 class="section__title">
+                        Abogado de migración , Tramites Migratorios, Gestorías. <br>
+                        <span style="color: #000; font-size: 0.9em;">Sobre Nosotros</span>
+                    </h1>
+                    <p class="about__description">
+                        Realizamos tramites de inmigración , gestionamos  residencias o visas en Argentina.  
+                        Nos Especializados en Derecho migratorio e inmigración en Argentina.  Tramitamos visados,
+                         residencias  y documentos para extranjeros que necesitan establecerse en Argentina. 
+                         Si  su interés es abrir sociedad comercial en Argentina, lo asesoramos para que su proyecto se haga realidad.                    </p>
+                </article>
+
+                <article class="svg__img about__img" >
+                     <!-- Imagen agregada aquí -->
+                     <img src="src/images/Gemini_Generated_Image_yacjavyacjavyacj.jpg" alt="Asistencia jurídica en migración" class="img-fluid">
+                </article>
+            </div>
+        </section>
+
+        <section class="support section" id="support">
+            <div class="support__container container">
+                <article class="support__info">
+                    <h1 class="section__title">
+                        Derechos Migratorios. <br>
+                        <span style="color: #000; font-size: 0.9em;">Soporte</span>
+                    </h1>
+                    <p class="support__description">
+                        Información actualizada sobre derechos migratorios entre España y Bolivia. Conoce los procesos de visado, requisitos de residencia, y tus derechos fundamentales como migrante.
+                    </p>
+                </article>
+
+                <article class="svg__img support__img" >
+                    <img src="src/images/Gemini_Generated_Image_918zd918zd918zd9.jpg" alt="Asistencia jurídica en migración" class="img-fluid">
+       
+                </article>
+            </div>
+        </section>
+
+        <section class="services section" id="services">
+            <br>
+            <h1 class="section__title section__title-center" style="font-weight: 800; font-size: 1.5rem;">
+                Tramites migratorios. <br>
+                <span style="color: #000; font-size: 0.9em;">Servicios</span>
+            </h1>
+        
+            <div class="services__container container">
+                <article class="services__info">
+                    <h3 class="services__title">Asesoría Legal Migratoria</h3>
+                    <i class="services__icon bi bi-shield-check"></i>
+                    <p class="services__description">Orientación legal integral sobre procesos migratorios entre España y Bolivia. Tramitación de visados, permisos de residencia y asesoramiento personalizado.</p>
+                    <div>
+                        <!--<a class="button button-link" href="#">see more</a>-->
+                    </div>
+                </article>
+                <article class="services__info">
+                    <h3 class="services__title">Tramitación de Documentos</h3>
+                    <i class="services__icon bi bi-file-earmark-text"></i>
+                    <p class="services__description">Gestión y preparación de documentación necesaria para procesos migratorios. Revisión de requisitos, formularios y seguimiento administrativo.</p>
+                    <div>
+                        <!--<a class="button button-link" href="#">see more</a>-->
+                    </div>
+                </article>
+                <article class="services__info">
+                    <h3 class="services__title">Reagrupación Familiar</h3>
+                    <i class="services__icon bi bi-people"></i>
+                    <p class="services__description">Apoyo especializado en procesos de reunificación familiar. Asesoramiento sobre requisitos legales, documentación y procedimientos.</p>
+                    <div>
+                        <!--<a class="button button-link" href="#">see more</a>-->
+                    </div>
+                </article>
+                <article class="services__info">
+                    <h3 class="services__title">Asesoría Laboral</h3>
+                    <i class="services__icon bi bi-briefcase"></i>
+                    <p class="services__description">Orientación sobre derechos laborales, búsqueda de empleo y contratos para migrantes. Información sobre permisos de trabajo y bolsa de empleo.</p>
+                    <div>
+                        <!--<a class="button button-link" href="#">see more</a>-->
+                    </div>
+                </article>
+                <article class="services__info">
+                    <h3 class="services__title">Consultoría de Arraigo</h3>
+                    <i class="services__icon bi bi-house-heart"></i>
+                    <p class="services__description">Guía especializada para obtener residencia por arraigo social. Asesoramiento en documentación, requisitos y estrategias de integración.</p>
+                    <div>
+                        <!--<a class="button button-link" href="#">see more</a>-->
+                    </div>
+                </article>
+                <article class="services__info">
+                    <h3 class="services__title">Trámites Consulares</h3>
+                    <i class="services__icon bi bi-globe"></i>
+                    <p class="services__description">Gestión de trámites consulares, renovación de documentos, certificaciones y servicios notariales.</p>
+                    <div>
+                        <!--<a class="button button-link" href="#">see more</a>-->
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="app section" id="app">
+            <div class="app__container container">
+                <article class="app__info">
+                    <h2 class="section__title" style="font-size: 2.5rem; font-weight: 800;">
+                        Nuestras Oficinas <br>
+                    
+                    </h2>
+                    <p class="app__description">Nos encontramos en Barcelona para facilitar el acceso, de igual forma en Bolivia Cochabamba y Santa Cruz.
+                         Abrimos de lunes a viernes para consultas online o presenciales. Concierte una cita con uno de 
+                         nuestros abogados.</p>
+                    <div class="app__buttons">
+                        <!--<a class="button button-flex" href="#">
+                            <i class="bi bi-apple"></i>
+                            App Store
+                        </a>
+                        <a class="button button-flex" href="#">
+                            <i class="bi bi-google-play"></i>
+                            Google Play
+                        </a>-->
+                    </div>
+                </article>
+
+                <article class="svg__img app__img">
+                    <img src="src/images/Gemini_Generated_Image_d5wgecd5wgecd5wg.jpg" alt="Asistencia jurídica en migración" class="img-fluid">
+       
+                </article>
+            </div>
+        </section>
+
+        <section class="contact section" id="contact">
+            <br>
+            <div class="contact__container container">
+                <div>
+                    <article">
+                    <h2 class="contact__title section__title" style="color: #000;">Contactenos</h2>
+                        <p class="contact__description">Nuestros abogados están listos para ayudarle con sus necesidades legales en España, ya sea en materia de inmigración y asesoramiento.</p>
+                    </article>
+                </div>
+
+                <div>
+                    <article>
+                        <ul class="contact__info">
+                            <li class="contact__address">
+                                Phone:
+                                <span class="contact__information">+591 ...</span>
+                            </li>
+                            <li class="contact__address">
+                                Email:
+                                <span class="contact__information">datos@email.com</span>
+                            </li>
+                            <li class="contact__address">
+                                Address:
+                                <span class="contact__information">CALLE PRINCIPAL.</span>
+                            </li>
+                        </ul>
+                    </article>
+                </div>
+
+                <div>
+                    <article>
+                        <div class="contact__button">
+                            <a class="button button-contact" href="#">Contactenos</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!--<section class="wave" id="wave">
+            <svg class="wave__svg" viewBox="0 0 1440 217" xmlns="http://www.w3.org/2000/svg">
+                <image href="src/images/footer.jpg" width="1440" height="217" preserveAspectRatio="none" />
+            </svg>
+        </section>-->
+
+        <footer class="footer section">
+            <div class="footer__container container">
+                <article class="footer__content">
+                    <img src="src/images/logofirst-removebg-preview.png" alt="Logo de AB & Asociados" class="footer__logo-image">
+                </article>
+
+
+                <article class="footer__content">
+                    <h3 class="footer__title">Redes Sociales</h3>
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link d-flex align-items-center">
+                                <i class="bi bi-facebook me-2"></i>
+                                @AB&AsociadosFacebook
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link d-flex align-items-center">
+                                <i class="bi bi-instagram me-2"></i>
+                                @AB&AsociadosInstagram
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link d-flex align-items-center">
+                                <i class="bi bi-tiktok me-2"></i>
+                                @AB&AsociadosTiktok
+                            </a>
+                        </li>
+                    </ul>
+                </article>
+
+                <article class="footer__content">
+                    <h3 class="footer__title">Donde Estamos</h3>
+                    <ul class="footer__links">
+                        <li><a href="#" class="footer__link">Barcelona - España</a></li>
+                        <li><a href="#" class="footer__link">Santa Cruz - Bolivia</a></li>
+                        <li><a href="#" class="footer__link">Cochabamba - Bolivia</a></li>
+                    </ul>
+                </article>
+
+                <article class="footer__content">
+                    <h3 class="footer__title">© AB&Asociados 2020</h3>
+                    <ul class="footer__links">
+                        <li><a href="#" class="footer__link">Todos los Derechos Reservados</a></li>
+                        <li><a href="#" class="footer__link">Bolivia</a></li>
+                        <!--<li><a href="#" class="footer__link">Lorem ipsum</a></li>-->
+                    </ul>
+                </article>
+
+                <article class="footer__social">
+                    
+                    <a href="#" class="footer__social-link">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+                    <a href="#" class="footer__social-link">
+                        <i class="bi bi-tiktok"></i>
+                    </a>
+                    <a href="#" class="footer__social-link">
+                        <i class="bi bi-whatsapp"></i>
+                    </a>
+                </article>
+            </div>
+
+            <p class="footer__copy">&#169; All Right Reserved.</p>
+        </footer>
+
+        <a class="scrollup" id="scroll-up" href="#home">
+            <i class="scrollup__icon bi bi-arrow-up"></i>
+        </a>
+    </body>
+
+</html>
